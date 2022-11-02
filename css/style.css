@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'IRANSans';
+	src:	url('../font/IRANSansWeb.eot');
+	src:	url('../font/../font/IRANSansWeb.eot') format('embedded-opentype'),
+			url('../font/IRANSansWeb.woff2') format('woff2'),
+			url('../font/IRANSansWeb.woff') format('woff'),
+			url('../font/IRANSansWeb.otf') format('opentype'),
+			url('../font/IRANSansWeb.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: IRANSans;
+}
+body{
+	background-color: gainsboro;
+	display: flex;
+	justify-content: center;
+}
+.formlist{
+	display: flex;
+
+	flex-direction: column;
+}
+.searchIcon{
+	position: fixed;
+	transform: translateX(50px);
+}
+.searchIcon i{
+	cursor: pointer;
+}
+.searchIcon i:hover{
+	border-bottom: 2px solid rgb(177, 0, 221);
+}
+.displaynone{
+	display: none;
+}
+.box span{
+	text-shadow: white 1px 1px;
+	cursor: pointer;
+}
+.box span:hover{
+	text-shadow: rgb(247, 243, 56) 1px 1px;
+}
